@@ -45,8 +45,6 @@
   margin-left: auto;
   list-style: none;
   display: flex;
-  gap: 20px;
-  flex-basis: calc((100% - 40px) / 2);
   align-items: center;
   background-color: rgba(220, 230, 241, 0.37);
   border-bottom-left-radius: 10px;
@@ -56,6 +54,7 @@
 .item {
   text-align: center;
   padding: 17px;
+  flex-basis: calc((100% - 40px) / 2);
 }
 .item:not(:last-child) {
   border-right: 1px solid rgba(199, 199, 199, 0.274);
