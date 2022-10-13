@@ -1,5 +1,6 @@
 .profile {
   background-color: rgba(224, 227, 230, 0.37);
+  margin-bottom: 40px;
 }
 .description {
   margin-right: auto;
@@ -15,8 +16,6 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 150px;
-  height: 150px;
 }
 .name {
   text-align: center;
